@@ -76,3 +76,22 @@ In Simple Terms:
 
 ![download](https://github.com/user-attachments/assets/61def23b-1798-4dce-874a-e2dfdc8e9197)
 
+What is a Cumulative Gains Chart?
+A cumulative gains chart helps you understand how well your model is ranking predictions.
+It shows the percentage of correct positive predictions you can capture by targeting a certain percentage of your total sample.
+The x-axis represents the percentage of the sample (the data you’re looking at).
+The y-axis represents the cumulative gains (the proportion of actual positives you've identified).
+Breakdown of the Cumulative Gains Chart:
+The Dashed Line: This is the baseline, representing a model that makes random predictions. If you select 50% of the data randomly, you'd expect to capture 50% of the positives.
+The Blue Line: This represents your model. The steeper the blue line, the better your model is at ranking positive predictions early on (the more you gain by targeting a smaller percentage of the data).
+For example, if you look at 50% of the data (halfway along the x-axis), your model has captured more than 100% of the positives, which means it is doing far better than random predictions.
+As you reach 100% of the data (the far-right of the x-axis), you capture all the positives.
+What Does It Tell Us?
+Your model is performing very well at identifying the most positive instances early on. In fact, by the time you sample 50% of the data, you’ve already captured all the positives (around 100%).
+The fact that your blue line is well above the random line (dashed line) shows that your model is much better than random guessing at ranking the correct predictions.
+In Simple Terms:
+Great Performance: Your model is doing an excellent job of ranking the predictions, meaning it can find the most correct (positive) predictions with much less data.
+By targeting only a portion of your data, you’re able to capture nearly all of the positive results, which means your model is highly efficient.
+
+![download](https://github.com/user-attachments/assets/34ff4b9a-b084-4722-b6ab-7c7ac12c14c0)
+
