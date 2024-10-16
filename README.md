@@ -69,3 +69,10 @@ Overall, it’s doing a great job of making the right predictions most of the ti
 
 ![download (2)](https://github.com/user-attachments/assets/a451c744-4367-4649-9f3e-7e04665a4f9c)
 
+In Simple Terms:
+* Good Calibration: Your model generally predicts well, and for most cases, the predicted probabilities are close to how often they’re correct.
+* Some Overconfidence: When the model is very confident (predicting values closer to 1), it is slightly overestimating how right it will be.
+* Some Underconfidence: At lower probabilities, the model is underestimating how good its predictions actually are.
+
+![download](https://github.com/user-attachments/assets/61def23b-1798-4dce-874a-e2dfdc8e9197)
+
