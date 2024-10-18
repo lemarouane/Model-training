@@ -31,6 +31,7 @@ Before, our validation accuracy fluctuated more and was not as close to the trai
 
 ### In Simple Terms
 Our model is doing a great job! We’re learning well from the examples we have seen and are also making accurate predictions on new, unseen examples. Both the training and validation accuracy are high and close to each other, which means our model is reliable and can handle new data just as well as the old data.
+
 ![download (1)](https://github.com/user-attachments/assets/5880e4a9-8b39-4c2d-9c11-6be5bb649e69)
 
 
