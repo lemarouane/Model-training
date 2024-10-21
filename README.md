@@ -14,7 +14,7 @@ Before, we were learning too much from the training data and struggling with new
 
 ### In Simple Terms
 We are now learning the right way: we’re getting better at both the old examples (training) and the new ones (validation), without making big mistakes. This makes our model reliable and useful when handling new, unseen data.
-
+ 
 ![download](https://github.com/user-attachments/assets/9c919eb9-6ded-4691-bcfd-9da9a5a3f42c)
 
 ## Training Accuracy (Blue Line)
